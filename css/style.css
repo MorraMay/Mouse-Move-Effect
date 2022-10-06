@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(rgba(0,0,25,0.9), rgba(0,0,25,0.9)),
+	url(/img/jun.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+}
+.wrapper h1{
+	font-size: 100px;
+	font-weight: 600;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+#focus{
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	z-index: 1;
+	background: url(/img/jun.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	border-radius: 50%;
+	overflow: hidden;
+	top: calc(50% - 140px);
+	left: calc(50% - 140px);
+	z-index: 1;
+} 
