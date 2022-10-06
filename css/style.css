@@ -12,7 +12,7 @@
 	align-items: center;
 	justify-content: center;
 	background-image: linear-gradient(rgba(0,0,25,0.9), rgba(0,0,25,0.9)),
-	url(/img/jun.jpg);
+	url(../img/jun.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -32,7 +32,7 @@
 	width: 280px;
 	height: 280px;
 	z-index: 1;
-	background: url(/img/jun.jpg);
+	background: url(../img/jun.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
